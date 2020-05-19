@@ -1,0 +1,27 @@
+[core]
+	editor = nano #FIXME
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[user]
+	name = YOUR NAME #FIXME
+	email = YOUR EMAIL #FIXME
+	username = YOUR USERNAME #FIXME
+[github]
+	user = YOUR USERNAM #FIXME
+	token = token
+# [difftool "sourcetree"]
+# 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+# 	path =
+# [mergetool "sourcetree"]
+# 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+# 	trustExitCode = true
+[commit]
+	template = ~/dotfiles/git-message-template.txt
+[alias]
+	edit = !atom $(git status --short | awk '$1 ~ /^M|A|U/ {print $2}' ) #opens all unstaged files for editing in Atom
+	stick = log --oneline --decorate --graph --all -n 30 #my prefered version of git log
+	stat = status #short version of status
+	com = commit
+    new = !sh -c 'git log $1@{1}..$1@{0} "$@"' #Show commits created by last command
+[include] #get gpg info
+	path = /PATH/1/TO/.gitconfig_local #FIXME
+ 	path = /PATH/2/TO/.gitconfig_local #FIXME

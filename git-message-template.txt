@@ -1,0 +1,15 @@
+# You MUST limit the title to 50 characters and lines to 72 characters
+# The 50 and 72 character limits are indicated with a '|' in each prompt
+#
+# If applied, this commit will...                |
+
+
+# Why is this change needed?                                           |
+#Prior to this change,
+
+# How does it address the issue? (response options, )                  |
+# to close multiple each issue must be prefaced with the keyword
+#Partially addresses issue #X
+#Resolves #X
+#Fixes #X
+#Closes #X
