@@ -47,6 +47,8 @@ and examples to get you started. Feel free to ask me questions.
    to `~/.old-dotfiles-backup`
 6. Install iTerm2 Shell Integration by copying appropriate files from a machine
    that has up to date versions of them
+7. The first 6 steps set up the very basics. Any line with a #FIXME comment should also
+   be changed/deleted to meet your needs.
 
 
 ## Setup instructions/notes for other things
