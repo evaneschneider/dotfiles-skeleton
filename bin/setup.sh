@@ -22,11 +22,12 @@ mkdir -p "$backup_location"
 # relative to the repo directory, and map value is the home directory location
 # the file will be linked to, relative to the home directory.
 # YOU CAN MODIFY THIS LIST
-dotfiles_to_link["bash_profile"]=".bash_profile"
-dotfiles_to_link["bashrc"]=".bashrc"
+dotfiles_to_link["bash_profile.sh"]=".bash_profile"
+dotfiles_to_link["bashrc.sh"]=".bashrc"
 dotfiles_to_link["nanorc"]=".nanorc"
 dotfiles_to_link["gitconfig"]=".gitconfig"
 dotfiles_to_link["pythonrc.py"]=".pythonrc"
+dotfiles_to_link["inputrc.sh"]=".inputrc"
 
 # DO NOT MODIFY, aka important gibberish
 for dotfile in "${!dotfiles_to_link[@]}" ; do
@@ -45,10 +46,6 @@ for dotfile in "${!dotfiles_to_link[@]}" ; do
     echo "Cannot find the file ${dotfile} in the repo path ${HOME}/dotfiles, skipping"
   fi
 done
-
-
-# Make bash case insensitive
-echo 'set completion-ignore-case On' >> ~/.inputrc
 
 # Create trash directory
 if [ ! -d "${HOME}/.Trash" ]

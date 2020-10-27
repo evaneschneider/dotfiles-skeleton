@@ -10,16 +10,4 @@ set tabstospaces #converts tabs to spaces
 set speller "hunspell"
 
 # include syntax coloring for all the languages I use
-include ~/dotfiles/nano-syntax-coloring/c.nanorc
-include ~/dotfiles/nano-syntax-coloring/changelog.nanorc
-include ~/dotfiles/nano-syntax-coloring/cmake.nanorc
-include ~/dotfiles/nano-syntax-coloring/cu.nanorc
-include ~/dotfiles/nano-syntax-coloring/fortran.nanorc
-include ~/dotfiles/nano-syntax-coloring/json.nanorc
-include ~/dotfiles/nano-syntax-coloring/makefile.nanorc
-include ~/dotfiles/nano-syntax-coloring/man.nanorc
-include ~/dotfiles/nano-syntax-coloring/nanohelp.nanorc
-include ~/dotfiles/nano-syntax-coloring/nanorc.nanorc
-include ~/dotfiles/nano-syntax-coloring/python.nanorc
-include ~/dotfiles/nano-syntax-coloring/sh.nanorc
-include ~/dotfiles/nano-syntax-coloring/markdown.nanorc
+include ~/dotfiles/nano-syntax-coloring/*.nanorc

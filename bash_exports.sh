@@ -14,7 +14,7 @@ export TERM="xterm-color"
 PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\W\[\e[0m\]\$ '
 
     # Source iTerm2 Shell integration files
-source ~/.iterm2_shell_integration.bash #FIXME ONLY USE THIS IF YOU'RE USING ITERM2
+source ~/.iterm2_shell_integration.bash
 
 
 ##### Exports ##################################################################
@@ -27,4 +27,3 @@ export PATH="${repo_dir}/${host_dir}/bin:${repo_dir}/bin:${PATH}"
 export PYTHONSTARTUP="${HOME}/dotfiles/pythonrc.py"
 
 ##### Variables ################################################################
-export h2p='h2p.crc.pitt.edu'

@@ -43,3 +43,7 @@ a.out
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE Generated Files #
+#######################
+.idea

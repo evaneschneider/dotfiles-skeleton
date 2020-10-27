@@ -15,14 +15,13 @@ bash_sources=(
 # a directory matching the host's name
 declare -A host_dirs
     # Personal Machines
-host_dirs["YOU-MACS-HOSTNAME"]="MACOS-EXAMPLE" #FIXME
-host_dirs["HOSTNAME_2"]="DIRECTORY TO LOOK IN FOR DOTFILES 2" #FIXME
+    
     # Remote Machines
 host_dirs["login0.crc.pitt.edu"]="crc_h2p"
 host_dirs["login1.crc.pitt.edu"]="crc_h2p"
 
 # Source bash files at the root of the dotfile repository and from host
-# repo_directories from the root of the dotfile repository (eg. ${repo}/host1/bashrc)
+# repo_directories from the root of the dotfile repository (eg. ${repo}/host1/bashrc.sh)
 
 host_dir="${HOSTNAME}"
 if [[ "${!host_dirs[@]}" =~ $HOSTNAME ]] ; then

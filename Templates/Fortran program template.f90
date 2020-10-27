@@ -1,7 +1,7 @@
 PROGRAM program_name
   !   Purpose:
   !
-  !       Author: Robert Caddy
+  !       Author: YOUR NAME HERE
   !       Originally Written:
   !       Project:
 

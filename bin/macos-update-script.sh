@@ -27,9 +27,23 @@ confirm_func 'Check what Homebrew packages are outdated? (y/n): '\
 
 declare -a packages
 packages=(
-   'LIST' #FIXME
-   'BREW'#FIXME
-   'PACKAGES'#FIXME
+   'ack'
+   'bash'
+   'coreutils'
+   'doxygen'
+   'gcc'
+   'git'
+   'gnupg'
+   'gnu-time'
+   'graphviz'
+   'grep'
+   'hunspell'
+   'make'
+   'nano'
+   'rsync'
+   'ruby'
+   'sl'
+   'tree'
 )
 
 prompt="Upgrade the following Homebrew packages? ${packages[@]} (y/n): "
@@ -39,6 +53,9 @@ confirm_func "${prompt}"\
 
 confirm_func 'Clean up old Homebrew packages? (y/n): '\
              'brew cleanup'
+
+# confirm_func 'Update the Fortran Language Server? (y/n): '\
+#              'pip install fortran-language-server -U'
 
 confirm_func 'Update all Anaconda packages? (y/n): '\
              'conda update --all'

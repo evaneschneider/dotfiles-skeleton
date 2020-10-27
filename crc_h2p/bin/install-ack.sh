@@ -5,7 +5,7 @@
 
 #set -x #echo all commands
 ack_path="${HOME}/dotfiles/crc_h2p/bin/ack"
-ack_version="v3.3.1"
+ack_version="v3.4.0"
 ack_install="curl https://beyondgrep.com/ack-${ack_version} > ${ack_path} && chmod 0755 ${ack_path}"
 
 echo -n "This will install ack ${ack_version}, please check for updates at 'https://beyondgrep.com/install/'."

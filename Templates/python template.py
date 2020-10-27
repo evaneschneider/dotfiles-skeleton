@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ================================================================================
- Written by Robert Caddy.  Created on %(date)s
+ Written by YOUR NAME HERE.  Created on %(date)s
 
  Description (in paragraph form)
 
@@ -19,7 +19,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from timeit import default_timer
-import donemusic
 
 plt.close('all')
 start = default_timer()
@@ -34,4 +33,3 @@ start = default_timer()
 
 
 print(f'\nTime to execute: {round(default_timer()-start,2)} seconds')
-donemusic.nonstop() #other option available to the file? ~/')
