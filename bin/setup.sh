@@ -24,7 +24,7 @@ mkdir -p "$backup_location"
 # YOU CAN MODIFY THIS LIST
 dotfiles_to_link["bash_profile.sh"]=".bash_profile"
 dotfiles_to_link["bashrc.sh"]=".bashrc"
-dotfiles_to_link["nanorc"]=".nanorc"
+dotfiles_to_link["vimrc"]=".vimrc"
 dotfiles_to_link["gitconfig"]=".gitconfig"
 dotfiles_to_link["pythonrc.py"]=".pythonrc"
 dotfiles_to_link["inputrc.sh"]=".inputrc"

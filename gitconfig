@@ -1,15 +1,15 @@
 [core]
-	editor =
+	editor = vi
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 [init]
-	defaultBranch =
+	defaultBranch = main
 [user]
-	name =
-	email =
-	username =
+	name = Evan Schneider
+	email = eschneider@pitt.edu
+	username = evaneschneider
 [github]
-	user =
-	token =
+	user = evaneschneider
+	token = token
 [commit]
 	template = ~/dotfiles/git-message-template.txt
 [pull]
@@ -33,5 +33,3 @@
 		git remote -v | grep git@github.com | grep fetch | head -1 | cut -f2 | cut -d' ' -f1 | sed -e's,:,/,' -e 's,git@,http://,'; \
 	fi; \
 	}; f"
-[include] #get gpg info
-	path = 
